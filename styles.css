@@ -74,6 +74,11 @@ header h1 {
     background: white;
 }
 
+header nav {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 footer {
     position: absolute;
     left: 0;
