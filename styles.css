@@ -204,6 +204,64 @@ pre {
     text-align: center;
 }
 
+.table-wrapper {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.table {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 1px;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    text-align: center;
+    min-width: 600px;
+}
+  
+.table-row-wrapper {
+    display: contents;
+}
+  
+.title {
+    grid-column: span 5;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 8px;
+    background-color: #e7e7e7;
+    color: #333;
+}
+  
+.sub-header {
+    background-color: #666;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+}
+  
+.row-label {
+    background-color: #d3d3d3;
+    color: #333;
+    font-weight: bold;
+    padding: 8px;
+}
+  
+.table-row {
+    padding: 8px;
+    background-color: white;
+}
+  
+.table-row-wrapper:nth-child(odd) .table-row,
+.table-row-wrapper:nth-child(odd) .row-label {
+    background-color: #f9f9f9;
+}
+  
+.table-row-wrapper:nth-child(even) .table-row,
+.table-row-wrapper:nth-child(even) .row-label {
+    background-color: #eaeaea;
+}
+  
+  
 @media screen and (max-width: 758px) {
     main {
         padding: 75px 15px 100px;
