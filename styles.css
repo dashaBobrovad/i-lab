@@ -50,7 +50,7 @@ p {
 main {
     display: flex;
     flex-direction: column;
-    padding: 180px 100px 100px;
+    padding: 0 100px 100px;
 }
 
 header {
@@ -269,7 +269,7 @@ pre {
   
 @media screen and (max-width: 758px) {
     main {
-        padding: 75px 15px 100px;
+        padding: 0 15px 100px;
     }
 
     .wrapper {
