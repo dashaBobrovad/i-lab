@@ -129,7 +129,8 @@ nav ul {
 
 nav ul li {
     margin-right: 0;
-    padding: 10px 15px; /* Добавляем отступы для создания кнопок */
+    display: flex;
+    align-items: center;
     background-color: white; /* Добавляем фон */
     border-radius: 5px; /* Округляем углы */
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -140,6 +141,7 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
     color: #4A90E2;
+    padding: 10px 15px; /* Добавляем отступы для создания кнопок */
 }
 
 nav ul li:hover {
